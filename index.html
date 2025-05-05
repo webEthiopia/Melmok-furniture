@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Melmok furniture</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 50px;
+        }
+        header div div,header h2{
+            flex: 1;
+            color: #222222;
+        }
+        header div div a{
+            padding: 10px;
+            color: white;
+            background: #222222;
+            border-radius: 60px;
+            position: absolute;
+            text-decoration: none;
+            right: 20px;
+            top: 3px;
+        }
+        #shop{
+            right: 120px;
+        }
+        hr{
+            border-color:#222222;
+        }
+        main{
+            padding: 30px;
+        }
+        .content{
+            display: flex;
+        }
+        .content div{
+            flex: 1;
+        }
+        .content div img{
+            width: 80%;
+        }
+        .content div a{
+            padding: 7px;
+            border-radius: 5px;
+            position: static;
+            background: #222222;
+            color: white;
+            text-decoration: none;
+        }
+        footer{
+            background: #404040;
+            color: #0081ff;
+            position:absolute ;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+        footer p{
+            text-align: left;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h2>Melmok</h2>
+            <div>
+                <a href="#" id="shop">Shop</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="content">
+            <div>
+                <p><strong>A plesant furniture</strong></p>
+                <h1>The future is here</h1>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="images/furniture.jpeg" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Michael Mekonnen</h3>
+        <h4>Developer</h4>
+        <p>&copy;Melmok furniture.All rights reserved.</p>
+    </footer>
+</body>
+</html>
